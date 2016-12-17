@@ -16,7 +16,7 @@ class MinHeapNode {
 	int i; // index of array from which element is taken
 	int j; // index of next element to picked within array
 };
-
+ 
 class MinHeap {
 	MinHeapNode *harr; // pointer to array of elements in heap
 	int heap_size; //size of min heap
