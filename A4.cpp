@@ -4,9 +4,8 @@
 // Student ID   : 260466524
 // Assignment   : 4
 // Question     : 1 and 2
-// Description  : 
 //============================================================================================
-#include <"a4.h">
+#include "a4.h"
 
 //Builds a heap from a given array a[] of given size
 MinHeap::MinHeap(MinHeapNode a[], int size)
@@ -101,6 +100,5 @@ int intersect(int *arrs[], int arrs_length[], int *re_arr, int & re_size){
 		}
 	}
 	re_size=z;
-    
 	return 0;
 }

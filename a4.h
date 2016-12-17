@@ -9,11 +9,6 @@
 #include <unordered_map>
 using namespace std;
 
-//function prototypes
-void swap(MinHeapNode *x, MinHeapNode *y);
-int merge(int *arrs[], int arrs_length[], int *re_arr, int & re_size);
-int intersect(int *arrs[], int arrs_length[], int *re_arr, int & re_size);
-
 //Describes Nodes in Heap Data Structure
 class MinHeapNode {
 	public:
@@ -44,3 +39,9 @@ class MinHeap {
 	}
 	
 };
+
+//function prototypes
+void swap(MinHeapNode *x, MinHeapNode *y);
+int merge(int *arrs[], int arrs_length[], int *re_arr, int & re_size);
+int intersect(int *arrs[], int arrs_length[], int *re_arr, int & re_size);
+
