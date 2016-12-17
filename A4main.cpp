@@ -3,7 +3,7 @@
 // Author       : Zachary Levinson
 // Student ID   : 260466524
 // Assignment   : 4
-// Question     : 1 amnd 2
+// Question     : 1 and 2
 // Description  : Executing of A4.cpp Functions and Definition of Arrays
 //============================================================================================
 #include "a4.h" 
